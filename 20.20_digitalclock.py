@@ -1,6 +1,6 @@
 # Digital Clock with Python
 # In this Section, we will saw that how to craete a digital clock using python. This is a simple task to get started with the Tkinter library in python, which is a built-in package that compes with Python. Tkinter has a some cool features that can be used to built simple apps.
-'''from tkinter import Label, Tk
+from tkinter import Label, Tk
 import time
 app_window = Tk()
 app_window.title("Digitaal Clock (using tkinder)")
@@ -20,4 +20,4 @@ def digital_clock():
     label.after(200, digital_clock)
 
 digital_clock()
-app_window.mainloop()'''
+app_window.mainloop()
